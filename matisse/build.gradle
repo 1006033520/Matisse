@@ -16,6 +16,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'checkstyle'
+apply plugin: 'maven'
+group = 'com.github.1006033520'
 
 android {
     compileSdkVersion 29
